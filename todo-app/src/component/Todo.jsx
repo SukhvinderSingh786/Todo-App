@@ -73,7 +73,7 @@ function Todo() {
   });
 
   return (
-    <div className="col-md-8">
+    <div className="col-md-8 " style={{ height: "300px" }}>
       <div className="card mt-4">
         <div className="card-header bg-primary text-white">
           <select value={filterOption} onChange={handleFilterChange}>
